@@ -1,0 +1,68 @@
+https://www.freepik.com/
+?
+?<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+<!-- inpage styling -->
+<style>
+
+    header{
+
+        background-color: green;
+        height: 130px;
+    }
+
+    aside{
+        background-color: blue;
+        height:300px;
+        width:200px;
+        display: inline-block;
+    }
+    section{
+        background-color: red;
+        height: 300px;
+        width: 1129px;
+        display: inline-block;
+        vertical-align: top;
+    }
+
+    .yellow-box{
+        display: inline-block;
+        width:350px;
+        height: 150px;
+        background-color: yellow;
+    }
+
+    #purple-box{
+        width:1058px;
+        background-color: purple;
+        height: 100px;
+    }
+
+</style>
+</head>
+<body>
+
+    <header></header>
+    
+    <aside></aside>
+
+    <section>
+
+        <div class="yellow-box"></div>
+        <div class="yellow-box"></div>
+        <div class="yellow-box"></div>
+
+        <div id="purple-box">
+
+        </div>
+
+    </section>
+    
+</body>
+</html>
